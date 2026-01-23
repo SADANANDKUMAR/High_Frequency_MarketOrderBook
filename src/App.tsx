@@ -35,9 +35,15 @@ export default function App() {
     }, [dispatch]);
 
     return (
-        <div className='p-4 space-y-4'>
-            <TickerSearch />
-            <OrderBook />
+        // <div className='p-4 space-y-4'>
+        //     <TickerSearch />
+        //     <OrderBook />
+        // </div>
+        <div className='min-h-screen bg-gray-100 p-6'>
+            <div className='max-w-4xl mx-auto space-y-4'>
+                <TickerSearch />
+                <OrderBook />
+            </div>
         </div>
     );
 }

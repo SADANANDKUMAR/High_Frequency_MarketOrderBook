@@ -1,6 +1,6 @@
 import {createSelector} from '@reduxjs/toolkit';
 
-import {RootState} from '../../app/store';
+import {RootState} from '../../store';
 import {asksAdapter, bidsAdapter} from './adapters';
 
 const selectOrderBook = (state: RootState) => state.orderBook;
